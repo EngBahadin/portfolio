@@ -7,15 +7,17 @@ export default defineUserConfig({
   lang: "en-US",
   title: "Bahadin Ali",
   description: "Frontend Developer Portfolio",
+
   theme: defaultTheme({
-    logo: "/spider.png", // optional logo
+    logo: "/code.com.png",
     navbar: [
-      { text: "Home", link: "/" },
-      { text: "About", link: "/about.html" },
-      { text: "Projects", link: "/projects.html" },
-      { text: "Contact", link: "/contact.html" },
+      { text: "Home", link: "/#home" },
+      { text: "About", link: "/#about" },
+      { text: "Projects", link: "/#projects" },
+      { text: "Contact", link: "/#contact" },
     ],
-    sidebar: false, // disable sidebar
+    sidebar: false,
   }),
+
   bundler: viteBundler(),
 });
