@@ -14,7 +14,7 @@ A collection of my recent work showcasing modern web development skills.
       <div style="margin: 15px 0;">
         <strong>Technologies:</strong> React, Next.js, TypeScript, Node.js
       </div>
-      <a href="/projects/unifood" style="color: #3b82f6; text-decoration: none; font-weight: 500;">View Details →</a>
+      <a href="projects/unifood" style="color: #3b82f6; text-decoration: none; font-weight: 500;">View Details →</a>
     </div>
   </div>
 
@@ -26,7 +26,7 @@ A collection of my recent work showcasing modern web development skills.
       <div style="margin: 15px 0;">
         <strong>Technologies:</strong> React, Next.js, TypeScript, Zustand
       </div>
-      <a href="/projects/sayay-farmuda" style="color: #3b82f6; text-decoration: none; font-weight: 500;">View Details →</a>
+      <a href="projects/sayay-farmuda" style="color: #3b82f6; text-decoration: none; font-weight: 500;">View Details →</a>
     </div>
   </div>
 
