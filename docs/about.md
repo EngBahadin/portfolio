@@ -1,147 +1,46 @@
 # About Me
 
-<!-- About Hero -->
-<div class="about-hero">
-  <img src="/profile.jpg" alt="Bahadin Ali" class="about-avatar">
-  <div class="about-intro">
-    <h2 class="about-title">Hi, I'm Bahadin Ali </h2>
-    <p class="about-subtitle">Frontend developer from Erbil, Iraq</p>
+I'm **Bahadin Ali**, a passionate frontend developer based in **Erbil, Iraq**, specializing in building modern web applications. With expertise in React, Next.js, and Vue, I transform ideas into elegant, performant digital experiences.
+
+## Skills
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
+  <div style="padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px;">
+    <h3>Frontend</h3>
+    <ul>
+      <li>React</li>
+      <li>Next.js</li>
+      <li>Vue.js</li>
+      <li>TypeScript</li>
+    </ul>
+  </div>
+  <div style="padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px;">
+    <h3>Styling</h3>
+    <ul>
+      <li>CSS3</li>
+      <li>Tailwind CSS</li>
+      <li>SASS/SCSS</li>
+      <li>Responsive Design</li>
+    </ul>
+  </div>
+  <div style="padding: 20px; border: 1px solid #e5e7eb; border-radius: 8px;">
+    <h3>Tools</h3>
+    <ul>
+      <li>Git</li>
+      <li>Vite</li>
+      <li>ESLint</li>
+      <li>Jest</li>
+    </ul>
   </div>
 </div>
 
-<!-- About Content -->
-<div class="about-content">
-  <div class="about-card">
-    <h3>🚀 What I Do</h3>
-    <p>I love building modern, scalable web apps with <strong>React</strong>, <strong>Next.js</strong>, <strong>Vue</strong>, and <strong>TypeScript</strong>.</p>
-  </div>
+## Experience
 
-  <div class="about-card">
-    <h3>💡 My Approach</h3>
-    <p>I follow best practices, love animations, and thrive in collaborative environments.</p>
-  </div>
+I build fast, clean, accessible web applications. I believe in clean code, accessibility-first design, and pixel-perfect implementations. Specializing in the React ecosystem and TypeScript, I build scalable SPAs and SSR applications.
 
-  <div class="about-card">
-    <h3>🎯 Currently</h3>
-    <p>Always learning new technologies and working on exciting projects that challenge my skills.</p>
-  </div>
-</div>
+## Philosophy
 
-<style>
-/* About Hero */
-.about-hero {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  padding: 3rem 1rem;
-  max-width: 800px;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.about-avatar {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 4px solid #3eaf7c;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-.about-intro {
-  flex: 1;
-  min-width: 300px;
-  text-align: center;
-}
-
-.about-title {
-  font-size: 2.2rem;
-  font-weight: 800;
-  margin-bottom: 0.8rem;
-  color: #24292f;
-}
-
-.about-subtitle {
-  font-size: 1.2rem;
-  color: #3eaf7c !important;
-  font-weight: 600;
-}
-
-/* About Content */
-.about-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  margin: 2rem auto;
-  max-width: 1000px;
-  padding: 0 1rem;
-}
-
-.about-card {
-  background: #f6f8fa;
-  padding: 2rem;
-  border-radius: 12px;
-  border: 1px solid #e1e4e8;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.about-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-}
-
-.about-card h3 {
-  color: #3eaf7c !important;
-  margin-bottom: 1rem;
-  font-size: 1.3rem;
-  font-weight: 700;
-}
-
-.about-card p {
-  color: #656d76;
-  line-height: 1.6;
-  margin: 0;
-}
-
-.about-card strong {
-  color: #3eaf7c !important;
-  font-weight: 600;
-}
-
-/* Dark theme support */
-@media (prefers-color-scheme: dark) {
-  .about-title {
-    color: #f0f6fc;
-  }
-  
-  .about-card {
-    background: #161b22;
-    border-color: #30363d;
-  }
-  
-  .about-card p {
-    color: #8b949e;
-  }
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .about-hero {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .about-intro {
-    min-width: auto;
-  }
-  
-  .about-title {
-    font-size: 1.8rem;
-  }
-  
-  .about-content {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
+- **Clean Code**: Following best practices and creating maintainable solutions
+- **User Experience**: Prioritizing user needs and accessibility
+- **Continuous Learning**: Always exploring new technologies and improving skills
+- **Performance**: Optimized applications that load fast and run smoothly
