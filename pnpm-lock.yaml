@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      markdown-it-include:
-        specifier: ^2.0.0
-        version: 2.0.0(markdown-it@14.1.0)
     devDependencies:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.20
@@ -1050,12 +1046,6 @@ packages:
 
   markdown-it-emoji@3.0.0:
     resolution: {integrity: sha512-+rUD93bXHubA4arpEZO3q80so0qgoFJEKRkRbjKX8RTdca89v2kfyF+xR3i2sQTwql9tpPZPOQN5B+PunspXRg==}
-
-  markdown-it-include@2.0.0:
-    resolution: {integrity: sha512-wfgIX92ZEYahYWiCk6Jx36XmHvAimeHN420csOWgfyZjpf171Y0xREqZWcm/Rwjzyd0RLYryY+cbNmrkYW2MDw==}
-    engines: {node: '>=10'}
-    peerDependencies:
-      markdown-it: '>=8.4.2'
 
   markdown-it@14.1.0:
     resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
@@ -2639,10 +2629,6 @@ snapshots:
       markdown-it: 14.1.0
 
   markdown-it-emoji@3.0.0: {}
-
-  markdown-it-include@2.0.0(markdown-it@14.1.0):
-    dependencies:
-      markdown-it: 14.1.0
 
   markdown-it@14.1.0:
     dependencies:
