@@ -3,7 +3,7 @@ import { defaultTheme } from "@vuepress/theme-default";
 import { viteBundler } from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
-  base: "/",
+  base: "/portfolio/",
   lang: "en-US",
   title: "Bahadin Ali",
   description: "Frontend Developer Portfolio - React, Next.js, Vue Specialist",

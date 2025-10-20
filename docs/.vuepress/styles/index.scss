@@ -1,188 +1,64 @@
-// Simple and clean styles for portfolio
+// Custom styles for Bahadin Ali Portfolio
+// These styles extend the default VuePress theme
 
-// Basic variables
+// Custom variables that extend the theme
 :root {
-  --primary: #3b82f6;
-  --primary-dark: #1d4ed8;
-  --text: #1f2937;
-  --text-light: #6b7280;
-  --bg: #ffffff;
-  --bg-light: #f9fafb;
-  --border: #e5e7eb;
+  --c-brand: #3b82f6;
+  --c-brand-light: #60a5fa;
+  --c-brand-dark: #1d4ed8;
+  --c-text: #1f2937;
+  --c-text-light: #6b7280;
+  --c-bg: #ffffff;
+  --c-bg-light: #f9fafb;
+  --c-border: #e5e7eb;
 }
 
-// Dark mode
+// Dark mode variables
 html.dark {
-  --primary: #60a5fa;
-  --text: #f9fafb;
-  --text-light: #d1d5db;
-  --bg: #111827;
-  --bg-light: #1f2937;
-  --border: #374151;
+  --c-brand: #60a5fa;
+  --c-brand-light: #93c5fd;
+  --c-brand-dark: #3b82f6;
+  --c-text: #f9fafb;
+  --c-text-light: #d1d5db;
+  --c-bg: #111827;
+  --c-bg-light: #1f2937;
+  --c-border: #374151;
 }
 
-// Simple hero section
-.home .hero {
-  text-align: center;
-  padding: 2rem;
-
-  .hero-image {
-    max-width: 150px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-  }
-
-  .hero-text {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 0.5rem;
-  }
-
-  .tagline {
-    font-size: 1.2rem;
-    color: var(--text-light);
-    margin-bottom: 2rem;
-  }
-
-  .actions {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    .action-button {
-      padding: 0.75rem 1.5rem;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: all 0.2s ease;
-
-      &.primary {
-        background: var(--primary);
-        color: white;
-
-        &:hover {
-          background: var(--primary-dark);
-        }
-      }
-
-      &.secondary {
-        background: transparent;
-        color: var(--primary);
-        border: 2px solid var(--primary);
-
-        &:hover {
-          background: var(--primary);
-          color: white;
-        }
-      }
-    }
-  }
+// Custom hero image styling
+.home .hero img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
 
-// Simple features section
-.home .features {
-  padding: 2rem;
-  background: var(--bg-light);
-
-  .feature {
-    text-align: center;
-    padding: 1.5rem;
-    background: var(--bg);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-
-    .feature-title {
-      font-size: 1.2rem;
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 0.5rem;
-    }
-
-    .feature-details {
-      color: var(--text-light);
-      line-height: 1.5;
-    }
-  }
+// Custom action button styling
+.home .hero .action-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: inline-block;
+  margin: 0.5rem;
 }
 
-// Simple navigation
-.navbar {
-  background: var(--bg);
-  border-bottom: 1px solid var(--border);
-
-  .navbar-brand {
-    font-weight: 700;
-    color: var(--primary);
-  }
-
-  .navbar-item {
-    transition: color 0.2s ease;
-
-    &:hover {
-      color: var(--primary);
-    }
-  }
+.home .hero .action-button.primary {
+  background: var(--c-brand);
+  color: white;
 }
 
-// Simple content styling
-.content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  h1,
-  h2,
-  h3 {
-    color: var(--text);
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  p {
-    color: var(--text-light);
-    line-height: 1.6;
-    margin-bottom: 1rem;
-  }
-
-  a {
-    color: var(--primary);
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
-  ul,
-  ol {
-    color: var(--text-light);
-    line-height: 1.6;
-  }
+.home .hero .action-button.primary:hover {
+  background: var(--c-brand-dark);
 }
 
-// Simple responsive design
-@media (max-width: 768px) {
-  .home .hero {
-    padding: 1rem;
+.home .hero .action-button.secondary {
+  background: transparent;
+  color: var(--c-brand);
+  border: 2px solid var(--c-brand);
+}
 
-    .hero-text {
-      font-size: 2rem;
-    }
-
-    .actions {
-      flex-direction: column;
-      align-items: center;
-
-      .action-button {
-        width: 100%;
-        max-width: 250px;
-      }
-    }
-  }
-
-  .content {
-    padding: 1rem;
-  }
+.home .hero .action-button.secondary:hover {
+  background: var(--c-brand);
+  color: white;
 }
